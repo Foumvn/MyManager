@@ -1,0 +1,49 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard-analytics"
+    },
+    {
+      "name": "Layouts",
+      "icon": "menu-icon tf-icons bx bx-layout",
+      "slug": "layouts",
+      "submenu": [
+        
+        {
+          "url": "/layouts/container",
+          "name": "Container",
+          "slug": "layouts-container"
+        },
+        {
+          "url": "/layouts/fluid",
+          "name": "Fluid",
+          "slug": "layouts-fluid"
+        }
+        
+      ]
+    },
+    {
+      "menuHeader": "Pages"
+    },
+   {
+    "url":"/menu",
+    "name":"Menu",
+    "slug":"menu"
+   },
+    
+    
+    
+   
+   
+    {
+      "url": "https://themeselection.com/demo/sneat-bootstrap-html-admin-template/documentation/laravel-introduction.html",
+      "icon": "menu-icon tf-icons bx bx-file",
+      "name": "Documentation",
+      "slug": "documentation",
+      "target": "_blank"
+    }
+  ]
+}
