@@ -5,10 +5,10 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class menu extends Controller
+class ajouter extends Controller
 {
-  public function index()
+  public function liste()
   {
-    return view('content.menu');
+    return view('content.ajouter');
   }
 }

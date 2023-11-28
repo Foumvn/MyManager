@@ -26,12 +26,18 @@
       ]
     },
     {
-      "menuHeader": "Pages"
+      "menuHeader": "CRUD"
     },
    {
-    "url":"/menu",
-    "name":"Menu",
-    "slug":"menu"
+    "url":"/liste",
+    "name":"Client",
+    "slug":"liste"
+   },
+
+   {
+    "url":"/upload",
+    "name":"Upload",
+    "slug":"upload"
    },
     
     
