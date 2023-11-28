@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\users;
+use App\Models\users\UploadDocument;
 use App\Http\Requests\StoreusersRequest;
 use App\Http\Requests\UpdateusersRequest;
 
@@ -25,6 +25,9 @@ class UsersController extends Controller
 
     public function ImageIndex()
     {
+        $fred='fred';
+
+       dd( UploadDocument($fred,$fred,$fred) );
         return view('content.donnees.images');
     }
 
@@ -38,7 +41,24 @@ class UsersController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function DocumentUpload()
+    {
+        $fred='fred';
+
+       dd( UploadDocument($fred,$fred,$fred) );
+       }
+
+    public function AudioUpload()
+    {
+        //
+    }
+
+    public function PersonnelUpload()
+    {
+        //
+    }
+
+    public function ImageUpload()
     {
         //
     }
@@ -60,7 +80,7 @@ class UsersController extends Controller
      * @param  \App\Models\users  $users
      * @return \Illuminate\Http\Response
      */
-    public function show(users $users)
+    public function delete(users $users)
     {
         //
     }

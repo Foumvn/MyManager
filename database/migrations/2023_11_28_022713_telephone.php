@@ -13,14 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('donnees', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
-            $table->string('type_donnees');
-            $table->string('id_users');
-            $table->rememberToken();
-            $table->timestamps();
-        });    }
+        Schema::table('users', function (Blueprint $table) {
+            //
+        });
+    }
 
     /**
      * Reverse the migrations.
@@ -29,6 +25,8 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('donnees');
+        Schema::table('users', function (Blueprint $table) {
+            //
+        });
     }
 };
