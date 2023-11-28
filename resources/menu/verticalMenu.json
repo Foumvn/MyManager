@@ -7,7 +7,7 @@
       "slug": "dashboard-analytics"
     },
     {
-      "name": "Layouts",
+      "name": "Parametres",
       "icon": "menu-icon tf-icons bx bx-layout",
       "slug": "layouts",
       "submenu": [
@@ -29,15 +29,27 @@
       "menuHeader": "CRUD"
     },
    {
-    "url":"/liste",
-    "name":"Client",
-    "slug":"liste"
+    "url":"/document",
+    "name":"Documents",
+    "slug":"audio"
    },
 
    {
-    "url":"/upload",
-    "name":"Upload",
-    "slug":"upload"
+    "url":"/image",
+    "name":"Images",
+    "slug":"audio"
+   },
+
+   {
+    "url":"/audio",
+    "name":"Audios",
+    "slug":"audio"
+   },
+
+   {
+    "url":"/personnel",
+    "name":"Personnel",
+    "slug":"personnel"
    },
     
     

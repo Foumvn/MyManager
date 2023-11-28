@@ -25,18 +25,18 @@ Route::get('/layouts/container', $controller_path . '\layouts\Container@index')-
 
 // cards
 Route::get('/cards/basic', $controller_path . '\cards\CardBasic@index')->name('cards-basic');
-Route::get('/liste', $controller_path . '\liste@index')->name('liste');
 
-//ajouter
-Route::get('/ajouter', $controller_path . '\ajouter@liste')->name('ajouter');
-Route::post('/ajouterClient',$controller_path .'\clientController@ajouter')->name('ajouterForm');
+//Content.donees
+Route::get('/document', $controller_path . '\UsersController@DocumentIndex')->name('liste');
+Route::get('/audio', $controller_path . '\UsersController@AudioIndex')->name('liste');
+Route::get('/image', $controller_path . '\UsersController@ImageIndex')->name('liste');
+Route::get('/personnel', $controller_path . '\UsersController@PersonnelIndex')->name('liste');
+
+
+
 //delete
-Route::get('/SupClient/{id}',$controller_path .'\clientController@delete');
 
-//upload-fichier
-Route::get('/upload',$controller_path .'\fichierController@posts');
 
-Route::post('/posts',$controller_path .'\fichierController@posts');
 
 
     
